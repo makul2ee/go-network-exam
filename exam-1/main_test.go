@@ -17,6 +17,8 @@ func TestAdd(t *testing.T) {
     expecred :=5
     if got := Add(2,3); got != expecred {
         t.Errorf("Add(2,3) = %v, want %v" , got, expecred)
+    }
+}
 =======
 func TestAdd(t *testing.T) {
     expected := 5
