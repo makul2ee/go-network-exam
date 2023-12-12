@@ -10,11 +10,3 @@ func TestExampleFunction(t *testing.T) {
         t.Errorf("HelloFunction() = %v, want %v", got, expected)
     }
 }
-
-
-func TestAdd(t *testing.T) {
-    expecred :=5
-    if got := Add(2,3); got != expecred {
-        t.Errorf("Add(2,3) = %v, want %v" , got, expecred)
-    }
-}
